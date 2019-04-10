@@ -1,4 +1,10 @@
-*** 
+*** New Info
+meta elements
+favicon element
+
+*** The first work
+how adding value to attribute in emmet
+
 
 
 *** index.html
