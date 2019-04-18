@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<path style="fill:#965502" d="M280,104H168v96h72v-32c0-22.088,17.912-40,40-40l0,0V104z" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+	<rect x="312" y="104" style="fill:#965502" width="96" height="24" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+</g><g>
+	<path style="fill:#8E0218" d="M448,80H0V0h448V80z M16,64h416V16H16V64z" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="32" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="96" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+</g><rect x="40" y="104" style="fill:#965502" width="96" height="96" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/><g>
+	<rect x="224" y="352" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="352" style="fill:#8E0218" width="144" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="320" style="fill:#8E0218" width="176" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="96" y="288" style="fill:#8E0218" width="144" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="288" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="256" style="fill:#8E0218" width="176" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+</g><g>
+	<rect x="296" y="232" style="fill:#965502" width="160" height="64" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+	<rect x="296" y="328" style="fill:#965502" width="160" height="64" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+</g><g>
+	<polygon style="fill:#443E35" points="16,96 0,96 0,432 240,432 240,416 16,416  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="432" y="96" style="fill:#443E35" width="16" height="32" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M256,456c0,22.056,17.944,40,40,40h160c22.056,0,40-17.944,40-40v-40H256V456z M272,432h208v24   c0,13.232-10.768,24-24,24H296c-13.232,0-24-10.768-24-24V432z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M144,96H32v112h112V96z M128,192H48v-80h80V192z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="176,112 272,112 272,128 288,128 288,96 160,96 160,208 240,208 240,192 176,192  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="320,112 400,112 400,128 416,128 416,96 304,96 304,128 320,128  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="32,400 240,400 240,384 48,384 48,240 240,240 240,224 32,224  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="344" y="448" style="fill:#443E35" width="64" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M456,144H296c-22.056,0-40,17.944-40,40v216h16V208h208v192h16V184C496,161.944,478.056,144,456,144   z M272,192v-8c0-13.232,10.768-24,24-24h160c13.232,0,24,10.768,24,24v8H272z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M464,224H288v80h176V224z M448,288H304v-48h144V288z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M288,400h176v-80H288V400z M304,336h144v48H304V336z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+</g></g> </svg>

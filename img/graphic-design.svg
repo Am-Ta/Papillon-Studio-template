@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<path style="fill:#8E0218" d="M440,80H0V0h440V80z M16,64h408V16H16V64z" data-original="#E56565" class="active-path" data-old_color="#8e0218"/>
+	<rect x="32" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="active-path" data-old_color="#8e0218"/>
+	<rect x="64" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="active-path" data-old_color="#8e0218"/>
+	<rect x="96" y="32" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="active-path" data-old_color="#8e0218"/>
+</g><g>
+	<rect x="376" y="392" style="fill:#965502" width="112" height="96" data-original="#FFCB57" class="" data-old_color="#FFCB57"/>
+	<rect x="216" y="392" style="fill:#965502" width="128" height="96" data-original="#FFCB57" class="" data-old_color="#FFCB57"/>
+	<rect x="72" y="392" style="fill:#965502" width="112" height="96" data-original="#FFCB57" class="" data-old_color="#FFCB57"/>
+	<rect x="216" y="152" style="fill:#965502" width="128" height="96" data-original="#FFCB57" class="" data-old_color="#FFCB57"/>
+</g><g>
+	<polygon style="fill:#443E35" points="16,96 0,96 0,416 48,416 48,400 16,400  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="424" y="96" style="fill:#443E35" width="16" height="200" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M368,384v112h128V384H368z M480,480h-96v-80h96V480z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="400" y="448" style="fill:#443E35" width="32" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="400" y="416" style="fill:#443E35" width="64" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="448" y="448" style="fill:#443E35" width="16" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M208,496h144V384H208V496z M224,400h112v80H224V400z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="240" y="448" style="fill:#443E35" width="48" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="240" y="416" style="fill:#443E35" width="80" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="304" y="448" style="fill:#443E35" width="16" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M64,496h128V384H64V496z M80,400h96v80H80V400z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="96" y="448" style="fill:#443E35" width="32" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="96" y="416" style="fill:#443E35" width="64" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="144" y="448" style="fill:#443E35" width="16" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M352,144H208v112h144V144z M336,240H224v-80h112V240z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="240" y="208" style="fill:#443E35" width="48" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="240" y="176" style="fill:#443E35" width="80" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="304" y="208" style="fill:#443E35" width="16" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="136,328 272,328 272,368 288,368 288,328 424,328 424,368 440,368 440,312 288,312 288,272    272,272 272,312 120,312 120,368 136,368  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+</g></g> </svg>

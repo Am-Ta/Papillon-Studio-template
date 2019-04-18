@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<circle style="fill:#965502" cx="288" cy="208" r="24" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+	<circle style="fill:#965502" cx="352" cy="392" r="24" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+	<circle style="fill:#965502" cx="424" cy="320" r="24" data-original="#FFCB57" class="active-path" data-old_color="#FFCB57"/>
+</g><g>
+	<polygon style="fill:#8E0218" points="461.656,197.656 450.344,186.344 432,204.688 413.656,186.344 402.344,197.656 420.688,216    402.344,234.344 413.656,245.656 432,227.312 450.344,245.656 461.656,234.344 443.312,216  " data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<polygon style="fill:#8E0218" points="32,112 192,112 192,96 48,96 48,48 320,48 320,80 336,80 336,32 32,32  " data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="64" y="64" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="96" y="64" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+	<rect x="128" y="64" style="fill:#8E0218" width="16" height="16" data-original="#E56565" class="" data-old_color="#8e0218"/>
+</g><g>
+	<path style="fill:#443E35" d="M0,304c0,22.056,17.944,40,40,40h72v32H80v16h112v-16h-64v-32h64v-16H40c-13.232,0-24-10.768-24-24   v-8h176v-16H0V304z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M16,40c0-13.232,10.768-24,24-24h368c13.232,0,24,10.768,24,24v40h16V40c0-22.056-17.944-40-40-40   H40C17.944,0,0,17.944,0,40v224h16V40z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M496,384V96H208v400h211.312L496,419.312V400h-88v80H224V112h256v272H496z M424,416h52.688   L424,468.688V416z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M272,384c0-41.672,29.072-77.896,69.472-87.216L376,331.312V256h-75.312l27.832,27.832   C285.848,297.944,256,338.168,256,384H272z M360,272v20.688L339.312,272H360z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M320,208c0-17.648-14.352-32-32-32s-32,14.352-32,32s14.352,32,32,32S320,225.648,320,208z M272,208   c0-8.824,7.176-16,16-16s16,7.176,16,16s-7.176,16-16,16S272,216.824,272,208z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M352,424c17.648,0,32-14.352,32-32s-14.352-32-32-32s-32,14.352-32,32S334.352,424,352,424z    M352,376c8.824,0,16,7.176,16,16s-7.176,16-16,16s-16-7.176-16-16S343.176,376,352,376z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<path style="fill:#443E35" d="M392,320c0,17.648,14.352,32,32,32s32-14.352,32-32s-14.352-32-32-32S392,302.352,392,320z M440,320   c0,8.824-7.176,16-16,16s-16-7.176-16-16s7.176-16,16-16S440,311.176,440,320z" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="32,128 32,264 192,264 192,248 48,248 48,128  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<polygon style="fill:#443E35" points="192,128 64,128 64,200 80,200 80,144 192,144  " data-original="#3F3A34" class="" data-old_color="#443e35"/>
+	<rect x="64" y="216" style="fill:#443E35" width="128" height="16" data-original="#3F3A34" class="" data-old_color="#443e35"/>
+</g></g> </svg>
