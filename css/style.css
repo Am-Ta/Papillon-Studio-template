@@ -1,0 +1,120 @@
+/************************
+*   CSS RESET
+************************/
+/*
+    http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/************************
+*   Define Font
+************************/
+@font-face {
+    font-family: 'Dosis';
+    src: url('../font/Dosis-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../font/Dosis-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../font/Dosis-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/************************
+*   FIX
+************************/
+/* margin-top and clear */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {clear:both;}
+
+/* box-sizing */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/************************
+*   VARS
+************************/
+:root {
+    --base-color: rgb(150, 86, 2);
+    --accent-color: rgb(140, 2, 22);
+    --dark-gray: rgb(68, 62, 53);
+    --light-gray: rgb(250, 250, 249);
+    --white: rgb(255, 255, 255);
+}
+
+/* ------------------------------------------------------------------------ */
+
+
