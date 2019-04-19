@@ -108,11 +108,12 @@ html {
 *   VARS
 ************************/
 :root {
-    --base-color: rgb(150, 86, 2);
-    --accent-color: rgb(140, 2, 22);
-    --dark-gray: rgb(68, 62, 53);
-    --light-gray: rgb(250, 250, 249);
-    --white: rgb(255, 255, 255);
+    --base-color: 150, 86, 2;
+    --accent-color: 140, 2, 22;
+    --dark-gray: 68, 62, 53;
+    --light-gray: 250, 250, 249;
+    --white: 255, 255, 255;
+    --font: 'Dosis', Arial, Helvetica, sans-serif;
 }
 
 /* ------------------------------------------------------------------------ */
