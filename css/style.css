@@ -118,4 +118,59 @@ html {
 
 /* ------------------------------------------------------------------------ */
 
+/************************
+*   Global
+************************/
+.container{
+    width: 75%;
+    margin: auto;
+}
 
+.left {float: left}
+.right {float: right}
+
+/* ------------------------------------------------------------------------ */
+
+body {
+    font-family: var(--font);
+    color: var(--dark-gray);
+}
+
+/************************
+*   Header
+************************/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    border-bottom: .25em solid rgb(var(--accent-color));
+    background-color: rgb(var(--light-gray));
+}
+
+/* nav */
+.nav{width: 60%;}
+.nav .nav__item .nav__txt {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em;
+    color: rgb(var(--base-color));
+    transition-property: background-color, color;
+    transition-duration: .3s, .3s;
+}
+
+.nav .nav__item .nav__txt.active,
+.nav .nav__item .nav__txt:hover {
+    background-color: rgb(var(--base-color));
+    color: rgb(var(--white));
+}
+
+/* logo */
+.logo {
+    width: 40%;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------ */
