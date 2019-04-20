@@ -129,6 +129,14 @@ html {
 .left {float: left}
 .right {float: right}
 
+.btn {
+    display: inline-block;
+    padding: .5em 1em;    
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
 /* ------------------------------------------------------------------------ */
 
 body {
@@ -146,16 +154,18 @@ body {
     width: 100%;
     padding: 1em;
     border-bottom: .25em solid rgb(var(--accent-color));
-    background-color: rgb(var(--light-gray));
+    background-color: rgba(var(--light-gray), .7);
+    z-index: 2;
 }
 
 /* nav */
 .nav{width: 60%;}
 .nav .nav__item .nav__txt {
     display: block;
+    padding: 1em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1em;
+    letter-spacing: .1em;
     color: rgb(var(--base-color));
     transition-property: background-color, color;
     transition-duration: .3s, .3s;
@@ -174,3 +184,61 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
+
+/************************
+*   Banner
+************************/
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width :100%;
+    height: 100%;
+    background-color: rgba(var(--base-color), .7);
+}
+
+.banner .banner__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: rgb(var(--white));
+    line-height: 1.6;
+}
+
+.banner .banner__content .banner__title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner .banner__content .banner__txt {font-size: 1.5em;}
+
+.banner .banner__content .btn {
+    border: .1em solid rgb(var(--accent-color));
+    margin-top: 1em;
+    background-color: rgb(var(--accent-color));
+    color: rgb(var(--white));
+    transition-property: background-color, color;
+    transition-duration: .3s, .3s;
+}
+.banner .banner__content .btn:hover {
+    background-color: transparent;
+    color: rgb(var(--accent-color));
+}
+
+/* ------------------------------------------------------------------------ */
+
