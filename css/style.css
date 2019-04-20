@@ -141,7 +141,7 @@ html {
 
 body {
     font-family: var(--font);
-    color: var(--dark-gray);
+    color: rgb(var(--dark-gray));
 }
 
 /************************
@@ -241,4 +241,21 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
+
+/************************
+*   Services
+************************/
+/* services header */
+.services .services__header {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(var(--light-gray));
+}
+
+.services__header .services__caption {
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(var(--dark-gray));
+}
+.services__header .services__info {margin: 1em 0;}
 
