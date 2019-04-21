@@ -129,6 +129,7 @@ html {
 .left {float: left}
 .right {float: right}
 
+/* btn */
 .btn {
     display: inline-block;
     padding: .5em 1em;    
@@ -162,6 +163,32 @@ html {
 .btn:hover:after {transform: scale(0);}
 .btn.brown:hover {color: rgb(var(--base-color));}
 .btn.red:hover {color: rgb(var(--accent-color));}
+
+/* header and footer sections */
+.section-head {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(var(--light-gray));
+    margin-bottom: 3em;
+}
+
+.section-head .section-head__caption {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.section-head .section-head__info {
+    font-size: 1.1em;
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+.section-footer{
+    text-align: center;
+    margin: 5em 0;
+}
 
 /* ------------------------------------------------------------------------ */
 
@@ -262,27 +289,6 @@ body {
 /************************
 *   Services
 ************************/
-/* services header */
-.services .services__header {
-    padding: 1em;
-    text-align: center;
-    background-color: rgb(var(--light-gray));
-    margin-bottom: 3em;
-}
-
-.services__header .services__caption {
-    font-size: 2em;
-    font-weight: 700;
-    color: rgb(var(--dark-gray));
-}
-
-.services__header .services__info {
-    font-size: 1.1em;
-    margin: 1em 0;
-    line-height: 1.6;
-}
-
-/* services main */
 .services .services__main .wrapper {width: 33%;}
 .services .services__main .services__item {
     width: 80%;
@@ -309,11 +315,8 @@ body {
     line-height: 1.6;
 }
 
-/* services footer */
-.services .services__footer {
-    text-align: center;
-    margin: 5em 0;
-}
-
 /* ------------------------------------------------------------------------ */
 
+/************************
+*   Portfolio
+************************/
