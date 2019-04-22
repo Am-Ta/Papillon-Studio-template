@@ -126,6 +126,8 @@ html {
     margin: auto;
 }
 
+.wrapper{margin-bottom: 2em;}
+
 .left {float: left}
 .right {float: right}
 
@@ -185,6 +187,15 @@ html {
     line-height: 1.6;
 }
 
+.section-head:after {
+    content: '';
+    display: block;
+    width: 5%;
+    height: .2em;
+    background-color: rgb(var(--accent-color));
+    margin: auto;
+}
+
 .section-footer{
     text-align: center;
     margin: 5em 0;
@@ -242,7 +253,7 @@ body {
 *   Banner
 ************************/
 .banner {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
@@ -301,7 +312,7 @@ body {
     width: 25%;
 }
 
-.services__item .services__content {margin: 1em 0 2em;}
+.services__item .services__content {margin: 1em 0;}
 .services__content .services__title {
     padding: .5em 1em;
     text-transform: uppercase;
@@ -320,3 +331,64 @@ body {
 /************************
 *   Portfolio
 ************************/
+.portfolio__main .wrapper {width: 50%;}
+.portfolio__main .portfolio__item {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(var(--dark-gray));
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__item .portfolio__img-box  .portfolio__img {
+    display: block;
+    width: 100%;
+}
+
+.portfolio__item .portfolio__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.6;
+    background-image: linear-gradient(rgb(var(--base-color)), transparent);
+    color: rgb(var(--white));
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 0.5s, 0.5s;
+}
+
+.portfolio__item:hover .portfolio__content {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.portfolio__item .portfolio__content .portfolio__title {
+    width: 70%;
+    padding: .5em;
+    margin: auto;
+    font-weight: 700;
+}
+
+.portfolio__item .portfolio__content .portfolio__txt {font-weight: 300;}
+
+.portfolio__item .portfolio__content .portfolio__title,
+.portfolio__item .portfolio__content .portfolio__txt {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition-property: transform, opacity;
+    transition-duration: .3s;
+}
+
+.portfolio__item:hover .portfolio__content .portfolio__title,
+.portfolio__item:hover .portfolio__content .portfolio__txt {
+    transition-delay: .4s;
+    transform: translateY(0%);
+    opacity: 1;
+}
+.portfolio__item:hover .portfolio__content .portfolio__txt {transition-delay: .6s;}
