@@ -358,16 +358,15 @@ body {
     line-height: 1.6;
     background-image: linear-gradient(rgb(var(--base-color)), transparent);
     color: rgb(var(--white));
-    opacity: 0;
-    transform-origin: right;
-    transition-property: opacity, transform;
-    transition-duration: 0.5s, 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition-property: transform;
+    transition-duration: 0.5s;
 }
 
 .portfolio__item:hover .portfolio__content {
-    transform-origin: left;
-    opacity: 1;
-    transform: scale(1);
+    transform-origin: right;
+    transform: scaleX(1);
 }
 
 .portfolio__item .portfolio__content .portfolio__title {font-weight: 700;}
@@ -459,5 +458,5 @@ body {
 /* ------------------------------------------------------------------------ */
 
 /************************
-* 
+*  FOOTER
 ************************/
