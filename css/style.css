@@ -52,7 +52,6 @@ table {
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   Define Font
 ************************/
@@ -75,7 +74,6 @@ table {
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   FIX
 ************************/
@@ -103,7 +101,6 @@ html {
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   VARS
 ************************/
@@ -117,22 +114,16 @@ html {
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   Global
 ************************/
-.container{
-    width: 75%;
-    margin: auto;
-}
 
 .wrapper{margin-bottom: 2em;}
 
-.left {float: left}
-.right {float: right}
 
 /* btn */
 .btn {
+    font-size: .9em;
     display: inline-block;
     padding: .5em 1em;    
     text-decoration: none;
@@ -175,23 +166,23 @@ html {
 }
 
 .section-head .section-head__caption {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     text-transform: capitalize;
 
 }
 
 .section-head .section-head__info {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 1em 0;
     line-height: 1.6;
-    color: rgba(var(--dark-gray), .5);
+    color: rgba(var(--dark-gray), .6);
 }
 
 .section-head:after {
     content: '';
     display: block;
-    width: 5%;
+    width: 3rem;
     height: .2em;
     background-color: rgb(var(--accent-color));
     margin: auto;
@@ -203,7 +194,6 @@ html {
 }
 
 /* ------------------------------------------------------------------------ */
-
 body {
     font-family: var(--font);
     color: rgb(var(--dark-gray));
@@ -213,24 +203,20 @@ body {
 *   Header
 ************************/
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     padding: 1em;
     border-bottom: .25em solid rgb(var(--accent-color));
-    background-color: rgba(var(--light-gray), .7);
-    z-index: 2;
+    background-color: rgb(var(--light-gray));
+    text-align: center;
+    min-height: 10rem;
 }
 
 /* nav */
-.nav{width: 60%;}
 .nav .nav__item .nav__txt {
     display: block;
-    padding: 1em;
+    padding: 1em .5em;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .2em;
     color: rgb(var(--base-color));
     transition-property: background-color, color;
     transition-duration: .3s, .3s;
@@ -244,18 +230,16 @@ body {
 
 /* logo */
 .logo {
-    width: 40%;
-    text-align: center;
+    display: none;
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   Banner
 ************************/
 .banner {
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,7 +247,7 @@ body {
     position: relative;
 }
 
-.banner:after {
+.banner:before {
     content: '';
     position: absolute;
     top: 0;
@@ -278,30 +262,26 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
     text-align: center;
     color: rgb(var(--white));
     line-height: 1.6;
 }
 
 .banner .banner__content .banner__title {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .banner .banner__content .banner__txt {
-    font-size: 1.5em;
+    font-size: 1.15em;
     margin-bottom: 1em;
 }
 
-
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   Services
 ************************/
-.services .services__main .wrapper {width: 33.3%;}
 .services .services__main .services__item {
     width: 80%;
     margin:auto;
@@ -309,8 +289,9 @@ body {
 }
 
 .services__item .services__img-box .services__img {
-    display: inline-block;
-    width: 25%;
+    display: block;
+    width: 4rem;
+    margin: auto;
 }
 
 .services__item .services__content {margin: 1em 0;}
@@ -328,11 +309,9 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *   Portfolio
 ************************/
-.portfolio__main .wrapper {width: 50%;}
 .portfolio__main .portfolio__item {
     width: 80%;
     margin: auto;
@@ -357,7 +336,7 @@ body {
     margin: auto;
     text-align: center;
     line-height: 1.6;
-    background-image: linear-gradient(rgb(var(--base-color)), transparent);
+    background-image: linear-gradient(rgba(var(--accent-color), .8), rgba(var(--base-color), .8));
     color: rgb(var(--white));
     transform: scaleX(0);
     transform-origin: left;
@@ -395,20 +374,16 @@ body {
 /************************
 *   Pricing
 ************************/
-.pricing .pricing__main .wrapper {width: 33.3%}
+
 .pricing__main .pricing__plan {
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: center;
     background-image: linear-gradient(-45deg, rgba(var(--base-color), .85), rgba(var(--accent-color), .85));
     color: rgb(var(--white));
-    border-radius: 8em 8em 1em 1em;
     padding: 1em;
 }
 
-.pricing__main .wrapper:nth-child(2) .pricing__plan {transform: translateY(0.5em);}
-
-/* pricing__header */
 .pricing__plan .pricing__header .fa{font-size: 3em;}
 .pricing__plan .pricing__header .pricing__title {
     font-weight: 700;
@@ -429,11 +404,10 @@ body {
     display: block;
     width: 80%;
     height: .05em;
-    margin: 1em  auto .5em;
+    margin: 2em  auto 1.5em;
     background-color: rgb(var(--light-gray));   
 }
 
-/* .pricing__details */
 .pricing__plan .pricing__details .pricing__item {
     padding: .5em;
     text-transform: capitalize;
@@ -447,23 +421,22 @@ body {
     font-weight: 400;
 }
 
-.pricing__plan .pricing__footer{margin-top: .5em;}
+.pricing__plan .pricing__footer{margin-top: 1.5em;}
 .pricing__plan .pricing__footer .btn {
     font-size: .9em;
     border: none;
     background-image: linear-gradient(-45deg, rgb(var(--base-color)), rgb(var(--accent-color)));
-    border-radius: 3em;
     text-transform: capitalize;
 }
 
 /* ------------------------------------------------------------------------ */
-
 /************************
 *  FOOTER
 ************************/
 .footer {
     text-align: center;
     margin:3em 0;
+    font-size: .9em;
 }
 
 .footer .footer__links,
@@ -495,7 +468,6 @@ body {
 
 .footer .footer__social .footer__social-item {
     display: inline-block;
-    font-size: 1.2em;
     margin:0 .5em;
     color: rgba(var(--dark-gray), .5);
     transition-property: color;
@@ -504,4 +476,57 @@ body {
 
 .footer .footer__social .footer__social-item:hover {
     color: rgba(var(--dark-gray), 1);
+}
+
+/* ------------------------------------------------------------------------ */
+/************************
+*  Media
+************************/
+@media screen and (min-width: 40em) {   /* min-width: 40em */
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .services .wrapper,
+    .pricing .wrapper {
+        float: left;
+        width: 50%;
+    }
+
+    .header {min-height: auto;}
+    .nav {float: right;}
+    .logo {
+        display: block;
+        float: left;
+    }
+    .nav .nav__item {float: left;}
+    .portfolio .portfolio__item {width: 70%;}
+    .pricing .pricing__plan {width: 90%;}
+    .footer {font-size: 1em;}
+}
+
+@media screen and (min-width: 64em) {   /* min-width: 64em */
+    .container {width: 70%;}
+    .btn {font-size: 1em;}
+    .section-head .section-head__caption {font-size: 2em;}
+    .services .wrapper,
+    .pricing .wrapper {width: 33.3%;}
+    .portfolio .wrapper {
+        float: left;
+        width: 50%;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        background-color: rgba(var(--white), .8);
+    }
+
+    .banner{height: 100vh;}
+    .banner .banner__content .banner__title {font-size: 2.5em;}
+    .banner .banner__content .banner__txt {font-size: 1.5em;}
+    .pricing__main .wrapper:nth-child(2) .pricing__plan {transform: translateY(-0.5em);}
 }
