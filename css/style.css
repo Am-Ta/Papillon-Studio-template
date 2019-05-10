@@ -246,6 +246,7 @@ body {
     background-position: center;
     position: relative;
 }
+.banner.team {background-image: url('../img/team-us.jpg');}
 
 .banner:before {
     content: '';
@@ -478,6 +479,80 @@ body {
     color: rgba(var(--dark-gray), 1);
 }
 
+.description {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 3em;
+}
+
+.description .description__txt{
+    color: rgba(var(--dark-gray), .7);
+    margin-bottom: 1em;
+    padding: 1em 2em;
+}
+
+/* ------------------------------------------------------------------------ */
+/************************
+*  TEAM US
+************************/
+.team .team__item {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 1em;
+    transition-property: box-shadow, transform;
+    transition-duration: .5s;
+    text-align: center;
+}
+
+.team .team__item:hover {
+    box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, .2);
+    transform: translateY(-.5em);
+}
+
+
+.team__item .team__img-box .team__img {
+    display: block;
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.team__item .team__introduce {color: rgb(var(--dark-gray));}
+
+.team__item .team__introduce:before {
+    content: '';
+    display: block;
+    width: 3em;
+    height: .15em;
+    background-color: rgba(var(--accent-color));
+    margin: 1em auto;
+}
+
+.team__introduce .team__name {
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: .05em;
+}
+
+.team__introduce .team__job {
+    font-size: .9em;
+    display: inline-block;
+    text-transform: capitalize;
+    background-color: rgb(var(--accent-color));
+    padding: .2em;
+    margin: 1em 0;
+    color: rgb(var(--light-gray));
+}
+
+.team__introduce .team__social-media .team__social-media-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.team__social-media .team__social-media-item .team__social-media-txt {color: rgb(var(--dark-gray));}
 /* ------------------------------------------------------------------------ */
 /************************
 *  Media
@@ -489,7 +564,8 @@ body {
     }
 
     .services .wrapper,
-    .pricing .wrapper {
+    .pricing .wrapper,
+    .team .wrapper {
         float: left;
         width: 50%;
     }
@@ -511,7 +587,8 @@ body {
     .btn {font-size: 1em;}
     .section-head .section-head__caption {font-size: 2em;}
     .services .wrapper,
-    .pricing .wrapper {width: 33.3%;}
+    .pricing .wrapper,
+    .team .wrapper {width: 33.3%;}
     .portfolio .wrapper {
         float: left;
         width: 50%;
