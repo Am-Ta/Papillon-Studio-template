@@ -1,7 +1,5 @@
-/************************
-*   CSS RESET
-************************/
 /*
+    * CSS RESET
     http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
     License: none (public domain)
@@ -27,34 +25,29 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+article, aside, details, figcaption, figure,        /* ? HTML5 display-role reset for older browsers */
+footer, header, hgroup, menu, nav, section {display: block;}
+
+body {line-height: 1;}
+
+ol, ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   Define Font
-************************/
+/*
+    * Define Font
+*/
 @font-face {
     font-family: 'Dosis';
     src: url('../font/Dosis-Regular.ttf') format('truetype');
@@ -73,20 +66,17 @@ table {
     font-weight: 700;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   FIX
-************************/
-/* margin-top and clear */
-.clearfix:before,
+/*
+    * FIX
+*/
+.clearfix:before,                           /* ? margin-top and clear */
 .clearfix:after {
     content: " ";
     display: table;
 }
 .clearfix:after {clear:both;}
 
-/* box-sizing */
-html {
+html {                                      /* ? box-sizing */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -100,10 +90,9 @@ html {
     box-sizing: border-box;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   VARS
-************************/
+/*
+    * VARS
+*/
 :root {
     --base-color: 150, 86, 2;
     --accent-color: 140, 2, 22;
@@ -113,16 +102,12 @@ html {
     --font: 'Dosis', Arial, Helvetica, sans-serif;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   Global
-************************/
-
+/*
+    * Global
+*/
 .wrapper{margin-bottom: 2em;}
 
-
-/* btn */
-.btn {
+.btn {                                      /* ? btn */
     font-size: .9em;
     display: inline-block;
     padding: .5em 1em;    
@@ -149,16 +134,20 @@ html {
 }
 
 .brown {border: .05em solid rgb(var(--base-color));}
+
 .red {border: .05em solid rgb(var(--accent-color));}
 
 .btn.red:after {background-color: rgb(var(--accent-color));}
+
 .btn.brown:after {background-color: rgb(var(--base-color));}
+
 .btn:hover:after {transform: scale(0);}
+
 .btn.brown:hover {color: rgb(var(--base-color));}
+
 .btn.red:hover {color: rgb(var(--accent-color));}
 
-/* header and footer sections */
-.section-head {
+.section-head {                                 /* ? header and footer sections */
     padding: 1em;
     text-align: center;
     background-color: rgb(var(--light-gray));
@@ -169,7 +158,6 @@ html {
     font-size: 1.5em;
     font-weight: 700;
     text-transform: capitalize;
-
 }
 
 .section-head .section-head__info {
@@ -193,15 +181,17 @@ html {
     margin: 5em 0;
 }
 
-/* ------------------------------------------------------------------------ */
+/* 
+    * Body
+*/
 body {
     font-family: var(--font);
     color: rgb(var(--dark-gray));
 }
 
-/************************
-*   Header
-************************/
+/*
+    * Header
+*/
 .header {
     padding: 1em;
     border-bottom: .25em solid rgb(var(--accent-color));
@@ -210,8 +200,7 @@ body {
     min-height: 10rem;
 }
 
-/* nav */
-.nav .nav__item .nav__txt {
+.nav .nav__item .nav__txt {                         /* ? nav */
     display: block;
     padding: 1em .5em;
     text-decoration: none;
@@ -228,15 +217,11 @@ body {
     color: rgb(var(--white));
 }
 
-/* logo */
-.logo {
-    display: none;
-}
+.logo {display: none;}                              /* ? logo */
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   Banner
-************************/
+/*
+    * Banner
+*/
 .banner {
     max-width: 100vw;
     min-height: 100vh;
@@ -246,7 +231,8 @@ body {
     background-position: center;
     position: relative;
 }
-.banner.team {background-image: url('../img/team-us.jpg');}
+
+.banner.team {background-image: url('../img/team-us.jpg');}         /* ? BANNER(about) */
 
 .banner:before {
     content: '';
@@ -268,21 +254,20 @@ body {
     line-height: 1.6;
 }
 
-.banner .banner__content .banner__title {
+.banner__content .banner__title {
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.banner .banner__content .banner__txt {
+.banner__content .banner__txt {
     font-size: 1.15em;
     margin-bottom: 1em;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   Services
-************************/
+/*
+    * Services
+*/
 .services .services__main .services__item {
     width: 80%;
     margin:auto;
@@ -296,6 +281,7 @@ body {
 }
 
 .services__item .services__content {margin: 1em 0;}
+
 .services__content .services__title {
     padding: .5em 1em;
     text-transform: uppercase;
@@ -309,10 +295,9 @@ body {
     line-height: 1.6;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*   Portfolio
-************************/
+/*
+    * Portfolio
+*/
 .portfolio__main .portfolio__item {
     width: 80%;
     margin: auto;
@@ -350,10 +335,12 @@ body {
     transform: scaleX(1);
 }
 
-.portfolio__item .portfolio__content .portfolio__title {font-weight: 700;}
-.portfolio__item .portfolio__content .portfolio__txt {font-weight: 300;}
-.portfolio__item .portfolio__content .portfolio__title,
-.portfolio__item .portfolio__content .portfolio__txt {
+.portfolio__content .portfolio__title {font-weight: 700;}
+
+.portfolio__content .portfolio__txt {font-weight: 300;}
+
+.portfolio__content .portfolio__title,
+.portfolio__content .portfolio__txt {
     padding: .25em;
     opacity: 0;
     transform: translateY(-100%);
@@ -370,12 +357,9 @@ body {
 
 .portfolio__item:hover .portfolio__content .portfolio__txt {transition-delay: .6s;}
 
-/* ------------------------------------------------------------------------ */
-
-/************************
-*   Pricing
-************************/
-
+/*
+    * Pricing
+*/
 .pricing__main .pricing__plan {
     width: 60%;
     margin: auto;
@@ -385,21 +369,6 @@ body {
     padding: 1em;
 }
 
-.pricing__plan .pricing__header .fa{font-size: 3em;}
-.pricing__plan .pricing__header .pricing__title {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .15em;
-    margin-top: 1em;
-    padding: .2em .5em;
-}
-
-.pricing__plan .pricing__header .pricing__price {
-    font-size: .8em;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
 .pricing__plan .pricing__header:after {
     content: '';
     display: block;
@@ -407,6 +376,22 @@ body {
     height: .05em;
     margin: 2em  auto 1.5em;
     background-color: rgb(var(--light-gray));   
+}
+
+.pricing__header .fa{font-size: 3em;}
+
+.pricing__header .pricing__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    margin-top: 1em;
+    padding: .2em .5em;
+}
+
+.pricing__header .pricing__price {
+    font-size: .8em;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
 .pricing__plan .pricing__details .pricing__item {
@@ -423,17 +408,17 @@ body {
 }
 
 .pricing__plan .pricing__footer{margin-top: 1.5em;}
-.pricing__plan .pricing__footer .btn {
+
+.pricing__footer .btn {
     font-size: .9em;
     border: none;
     background-image: linear-gradient(-45deg, rgb(var(--base-color)), rgb(var(--accent-color)));
     text-transform: capitalize;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*  FOOTER
-************************/
+/*
+    * FOOTER
+*/
 .footer {
     text-align: center;
     margin:3em 0;
@@ -443,11 +428,12 @@ body {
 .footer .footer__links,
 .footer .footer__social {padding: 1em;}
 
-.footer .footer__links .footer__address {margin-bottom: 1em;}
-.footer .footer__links .footer__mail {margin-right: 1em;}
+.footer__links .footer__address {margin-bottom: 1em;}
 
-.footer .footer__links .footer__mail:before,
-.footer .footer__links .footer__phone:after {
+.footer__links .footer__mail {margin-right: 1em;}
+
+.footer__links .footer__mail:before,
+.footer__links .footer__phone:after {
     content: '';
     display: inline-block;
     width: 0;
@@ -455,19 +441,19 @@ body {
     margin: .15em .25em;
 }
 
-.footer .footer__links .footer__mail:before {
+.footer__links .footer__mail:before {
     border-top: 0.25em solid transparent;
     border-left: 0.5em solid rgb(var(--accent-color));
     border-bottom: 0.25em solid transparent;
 }
 
-.footer .footer__links .footer__phone:after {
+.footer__links .footer__phone:after {
     border-top: 0.25em solid transparent;
     border-bottom: .25em solid transparent;
     border-right: .5em solid rgb(var(--accent-color));
 }
 
-.footer .footer__social .footer__social-item {
+.footer__social .footer__social-item {
     display: inline-block;
     margin:0 .5em;
     color: rgba(var(--dark-gray), .5);
@@ -475,10 +461,11 @@ body {
     transition-duration: .3s;
 }
 
-.footer .footer__social .footer__social-item:hover {
-    color: rgba(var(--dark-gray), 1);
-}
+.footer__social .footer__social-item:hover {color: rgba(var(--dark-gray), 1);}
 
+/* 
+    * Description(about)
+*/
 .description {
     text-align: justify;
     line-height: 1.6;
@@ -491,10 +478,9 @@ body {
     padding: 1em 2em;
 }
 
-/* ------------------------------------------------------------------------ */
-/************************
-*  TEAM US
-************************/
+/*
+    * TEAM US(about)
+*/
 .team .team__item {
     width: 80%;
     margin: auto;
@@ -510,7 +496,6 @@ body {
     box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, .2);
     transform: translateY(-.5em);
 }
-
 
 .team__item .team__img-box .team__img {
     display: block;
@@ -553,11 +538,11 @@ body {
 }
 
 .team__social-media .team__social-media-item .team__social-media-txt {color: rgb(var(--dark-gray));}
-/* ------------------------------------------------------------------------ */
-/************************
-*  Media
-************************/
-@media screen and (min-width: 40em) {   /* min-width: 40em */
+
+/*
+    * Media
+*/
+@media screen and (min-width: 40em) {                   /* ? min-width: 40em */
     .container {
         width: 80%;
         margin: auto;
@@ -571,28 +556,38 @@ body {
     }
 
     .header {min-height: auto;}
+    
     .nav {float: right;}
+    
     .logo {
         display: block;
         float: left;
     }
     .nav .nav__item {float: left;}
+    
     .portfolio .portfolio__item {width: 70%;}
+    
     .pricing .pricing__plan {width: 90%;}
+    
     .footer {font-size: 1em;}
 }
 
-@media screen and (min-width: 64em) {   /* min-width: 64em */
+@media screen and (min-width: 64em) {                                 /* ? min-width: 64em */
     .container {width: 70%;}
+    
     .btn {font-size: 1em;}
+    
     .section-head .section-head__caption {font-size: 2em;}
+    
     .services .wrapper,
     .pricing .wrapper,
     .team .wrapper {width: 33.3%;}
+    
     .portfolio .wrapper {
         float: left;
         width: 50%;
     }
+    
     .header {
         position: fixed;
         top: 0;
@@ -603,7 +598,10 @@ body {
     }
 
     .banner{height: 100vh;}
+    
     .banner .banner__content .banner__title {font-size: 2.5em;}
+    
     .banner .banner__content .banner__txt {font-size: 1.5em;}
+    
     .pricing__main .wrapper:nth-child(2) .pricing__plan {transform: translateY(-0.5em);}
 }
