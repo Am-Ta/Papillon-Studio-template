@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Amin Taghipour">
+    <meta name="description" content="The Papillon Studio provides solutions for designing and implementing and developing websites for companies and ensures that they have the best quality.">
+    <meta name="keywords" content="Papillon Studio, Design, Implement, Develop, Photography">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Contact | Papillon</title>
+    <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--
+        * HEADER 
+    -->
+    <header class="header">
+        <div class="container clearfix">
+            <nav class="nav">                   <!-- ? NAV(Header) -->
+                <ul class="clearfix">
+                    <li class="nav__item"><a href="index.html" class="nav__txt">home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__txt">about</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__txt active">contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo">                  <!-- ? LOGO(Header) -->
+                <img src="./img/logo.png" alt="Papillon Studio" class="logo__img">
+            </div>
+        </div> <!-- ? /.container -->
+    </header>
+
+
+    <!-- 
+        * BANNER 
+    -->
+    <div class="banner no-bg">
+        <div class="container">
+            <div class="banner__content">
+                <h1 class="banner__title">contact us</h1>
+                <p class="banner__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+        * CONTACT 
+    -->
+    <section class="contact">
+        <div class="contact__info">                 <!-- ? contact info(contact) -->
+            <div class="contact__address clearfix">       <!-- ? contact address(contact info) -->
+                <div class="contact__caption"><em>address:</em></div>
+                <div class="contact__txt">
+                    <p>745 Kuhic Falls, North Blancachester, PH 60366</p>
+                </div>
+            </div>
+            <div class="contact__tel clearfix">              <!-- ? contact telphone(contact info) -->
+                <div class="contact__caption"><em>telphone:</em></div>
+                <div class="contact__txt">
+                    <p>689.692.1889</p>
+                    <p class="circle-before">631.362.8557</p>
+                </div>
+            </div>
+            <div class="contact__email clearfix">            <!-- ? contact email(contact info) -->
+                <div class="contact__caption"><em>eamil:</em></div>
+                <div class="contact__txt">
+                    <p>Hi[at]PapillonStudio.com</p>
+                    <p class="circle-before">Job[at]PapillonStudio.com</p>
+                </div>
+            </div>
+            <div class="contact__soical clearfix">           <!-- ? contact social(contact info) -->
+                <div class="contact__caption"><em>Lorem ipsum dolor sit</em></div>
+                <div class="contact__txt">
+                    <div class="social">
+                        <ul>                                     <!-- ? social-->
+                            <li class="social__item">
+                                <a href="https://twitter.com/TaghipourAmin" class="social__txt">
+                                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://github.com/Am-Ta" class="social__txt">
+                                    <span class="fa fa-github" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://codepen.io/amin-ta" class="social__txt">
+                                    <span class="fa fa-codepen" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- ?/.contact__info -->
+        <div class="contact__form">                 <!-- ? contact form(contact) -->
+            <form action="index.php" method="GET" class="form clearfix">
+                <div class="form__item">
+                    <input type="text" class="form__input" autocomplete="off" name="name" required>
+                    <label class="form__label" ><span class="form__label-txt">name</span></label>
+                </div>
+                <div class="form__item">
+                    <input type="text" class="form__input" autocomplete="off" name="email" required>
+                    <label class="form__label" ><span class="form__label-txt">email</span></label>
+                </div>
+                <div class="form__item">
+                    <textarea class="form__input" autocomplete="off" name="message" required></textarea>
+                    <label class="form__label" ><span class="form__label-txt">message</span></label>
+                </div>
+                <div class="form__item">
+                    <input type="checkbox" class="form__input" id="checkbox" name="newsletter" value="true">
+                    <label for="checkbox" class="form__label">Lorem ipsum dolor sit amet consectetur.</label>
+                </div>
+                <div class="form__item">
+                    <button type="submit" class="btn brown large">send message</button>
+                </div>
+            </form>
+        </div>  <!-- ? /.contact__form -->
+    </section>
+    
+</body>
+</html>
