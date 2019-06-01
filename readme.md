@@ -56,3 +56,4 @@ ___
         * ```css
             @media screen and (min-width: 64em) {}
           ```
+    * Float layout
